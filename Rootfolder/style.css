@@ -1,0 +1,407 @@
+/* global */
+body{
+    
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Forside  */
+
+.forsideoverskrift{
+    position: relative;
+    top: 150px;
+    text-align: center;
+    font-family:monospace;
+    font-size: 400%;
+}
+
+.forside2{
+    margin-top: 90%;
+    margin-left: 3%;
+}
+
+.forside3{
+    font-family: cursive;
+    font-size: 90%;
+    position: relative;
+    float: right;
+    margin-right: 3%;
+}
+
+
+.forside4{
+    font-family: sans-serif;
+    font-size: 10%;
+    margin-top: 140px;
+    margin-left: 1%;
+}
+
+.footerforside{
+    position:absolute;
+   bottom:100px;
+   width:100%;
+   height:100px;
+   
+   margin-top: 126%;   
+z-index: 10;
+   
+   
+}
+
+/* menubar */
+
+
+
+header{
+    background-color: #1c3398;
+    font-family: serif;
+    font-size: 20px;
+    position:fixed;
+    width: 100%;
+    margin-top: 0;
+    top: 0;
+    height: 140px;
+    z-index: 1;
+    
+    
+}
+
+.frontpagelogo{
+    height: 110px;
+    width: auto;
+    position: static;
+    
+}
+
+
+
+.frontpagelogo{
+    margin-bottom: 0px
+}
+.menuknap{
+    font-size: 17px;
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    
+         
+    color: #f1f1f1;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+menuknap a:hover {
+    background-color: #555;
+    color: white;
+}
+
+/* artikler placering */
+
+h2{
+    font-family:sans-serif;
+    
+}
+
+.Artikler{
+    position: relative;
+    top: 140px;
+    
+}
+
+.Artikler {
+    margin: 3%; 
+    width: 93%;
+}
+
+
+
+.Artikler img {
+    width: 100%;
+    height: auto;
+}
+
+.Artikler {
+    padding: 1px;
+    text-align:left;
+}
+
+/* Artikel hover */
+
+.artikel1:hover {
+    border: 0px solid #1c3398;
+}
+
+.artikel2:hover {
+    border: 0px solid #1c3398;
+}
+
+.artikel3:hover {
+    border: 0px solid #1c3398;
+}
+
+
+/* Footer */
+
+footer{
+    color: aliceblue;
+    background-color: #1c3398;
+    font-family: serif;
+    font-size: 14px;
+    position:relative;
+    width: 100%;
+    margin-top: 10px;
+    bottom: 10px;
+    top: 140px;
+    z-index: 2;
+    padding: 1px;
+}
+
+.footeroverskrift{
+    margin-left: 10px;
+}
+
+.footertekst{
+    margin-left: 10px;
+}
+
+/* Om Os */
+.omos1{
+    text-align: center;
+    margin-top: 200px;
+    font-family:monospace;
+    margin-left: 3px;
+    margin-right: 3px;
+    
+}
+
+.omos2{
+    text-align: left;
+    margin-top: 140px;
+    margin-left: 4px;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
+/* Artikel 1 */
+
+.Russartikel{
+   
+    width: 95%;
+    margin-top: 140px;
+    margin-left: 2.3%;
+    
+}
+
+.russoverskrift{
+    font-family: sans-serif;
+    margin-left: 1%;
+}
+
+.Russtekst{
+    text-align: center;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+/* Artikel 2 */
+
+.Kphax1{
+    
+    width: 95%;
+    margin-top: 140px;
+    margin-left: 2.3%;
+    
+}
+
+
+.Kphax2{
+  font-family: sans-serif;
+    margin-left: 1%;  
+    
+}
+
+.Kphax3{
+    text-align: center;
+    margin-right: 2%;
+    margin-left: 2%;
+    
+}
+
+/* Artikel 3 */
+
+.facebookbillede{
+  
+    width: 95%;
+    margin-top: 140px;
+    margin-left: 2.3%;  
+}
+
+.facebookoverskrift{
+    font-family: sans-serif;
+    margin-left: 1%;
+}
+
+.facebook{
+    text-align: center;
+    margin-right: 2%;
+    margin-left: 2%
+}
+
+
+@media only screen and (min-width:768px){
+    
+.forsideoverskrift{
+    position: relative;
+    top: 150px;
+    text-align: center;
+    font-family:monospace;
+    font-size: 400%;
+}
+
+.forside2{
+    margin-top: 30%;
+    margin-left: 3%;
+}
+
+.forside3{
+    font-family: cursive;
+    font-size: 100%;
+    position: relative;
+    float: right;
+    margin-right: 3%;
+}
+
+
+.forside4{
+    font-family: sans-serif;
+    font-size: 10%;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+   
+.footerforside{
+    position:relative;
+   bottom:200px;
+   width:100%;
+   height:100px;
+   
+   margin-top: 10%;   
+z-index: 10;
+   
+   
+}   
+
+    .omos2{
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 4px;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+    
+    
+}
+    
+
+@media (min-width:1080px){
+    
+.forsideoverskrift{
+    position: relative;
+    top: 140px;
+    text-align: center;
+    font-family:monospace;
+    font-size: 400%;
+    
+    }
+    
+.forside2{
+    margin-top: 20%;
+    margin-left: 3%;
+}
+
+.forside3{
+    font-family: cursive;
+    font-size: 100%;
+    position: relative;
+    margin-right: 3%;
+    margin-top: 5%
+}
+
+
+.forside4{
+    font-family: sans-serif;
+    font-size: 10%;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+   
+.footerforside{
+    position:relative;
+   bottom:200px;
+   width:100%;
+   height:100px;
+   
+   margin-top: 5%;   
+z-index: 10;
+   
+   
+}   
+
+
+
+.Artikler{
+    position: relative;
+    top: 140px;
+    
+}
+
+.Artikler {
+    margin: 3%; 
+    border: 1px solid #1c3398;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+.Artikler img {
+    width: 40%;
+    height: auto;
+    
+}
+
+.Artikler {
+    padding: 1px;
+    text-align:left;
+}    
+
+
+.Russartikel{
+    position: relative;
+    height: 30%;
+    width: 30%;
+    margin-top: 140px;
+    margin-left: 36%;
+    
+}
+
+.facebookbillede{
+  
+    width: 30%;
+    margin-top: 140px;
+    margin-left: 36%;  
+    
+}
+
+.Kphax1{
+    
+    width: 30%;
+    margin-top: 140px;
+    margin-left: 36%;
+    
+}    
+    
+}
